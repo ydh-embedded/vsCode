@@ -1,6 +1,6 @@
 {
     "markdown.styles": [
-        "CSS\\markdown-style.css",
-        "CSS\\markdown-style-js.js",
+        "CSS\\md.css",
+        "CSS\\md.js",
     ]
 }
