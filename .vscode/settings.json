@@ -3,9 +3,22 @@
     [
                                 "CSS\\md.css",
                                 "CSS\\md.js" ,
-    ]   ,
-
-    "editor.codeActionsOnSave":
+    ]  
     
-    {        "quickfix.biome":   "explicit"       }
+    ,
+    
+    //NOTE -  Falls man alle MarkDown Meldungen ausschalten möchte - aktiviert man das ignore Flag
+    "[markdown]":
+    {
+            "markdownlint.ignore": ["**/*.md"]
+    }
+
+    ,
+
+    "[editor.codeActionsOnSave]":
+    {
+                "quickfix.biome":   "explicit"
+    }
+
+    
 }
